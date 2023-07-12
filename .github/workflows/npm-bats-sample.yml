@@ -2,8 +2,10 @@
 name: npm-bats-sample
 # The name for workflow runs: "<username> is learning GitHub Actions"
 run-name: ${{ github.actor }} is learning GitHub Actions
-# Trigger this workflow on push to the repository or PR merging
-on: [push]
+# Trigger this workflow manually by the web interface or web API
+on:
+  workflow_dispatch:
+
 jobs:
   # Job definition
   check-bats-version:
