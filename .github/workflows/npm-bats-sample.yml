@@ -1,5 +1,5 @@
 # The name of the workflow
-name: learn-github-actions
+name: npm-bats-sample
 # The name for workflow runs: "<username> is learning GitHub Actions"
 run-name: ${{ github.actor }} is learning GitHub Actions
 # Trigger this workflow on push to the repository or PR merging
