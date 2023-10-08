@@ -1,6 +1,9 @@
 # try-github-actions
 
-GitHub ActionsでのCI/CD環境構築を試す
+GitHub ActionsによるCI/CDワークフローの自動化を試す
 
 - [クイックスタート](https://docs.github.com/ja/actions/quickstart)
 
+## Python
+
+- pytestでのPush時自動テスト
